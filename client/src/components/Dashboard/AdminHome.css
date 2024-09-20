@@ -1,0 +1,58 @@
+.adminlogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+  }
+  
+  .logincharacter {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .mainloginform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 6rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-right: 500px;
+  }
+
+  
+  .usernamekobox,
+  .passwordkobox {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+  }
+  
+  .usernamekobox:focus,
+  .passwordkobox:focus {
+    outline: none;
+    border-color: #6c63ff;
+  }
+
+  .buttonforadminlogin{
+    border-radius: 20px;
+    padding: 1rem;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .buttonforadminlogin:hover{
+    transition: ease-in-out 0.2s; 
+    background-color: #ddd;
+    cursor: pointer;
+  }
+

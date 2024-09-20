@@ -1,0 +1,41 @@
+.accept {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 0.5rem;
+}
+
+.accept:hover {
+  background-color: #218838;
+}
+
+.reject {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reject:hover {
+  background-color: #c82333;
+}
+
+.buttonforanaly{
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 200px;
+  align-items: center;
+  position: relative;
+  left: 1300px;
+}

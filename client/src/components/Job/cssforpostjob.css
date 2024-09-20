@@ -1,0 +1,129 @@
+.postjobmaindiv{
+    background-image: url(3d.png);
+    background-size: contain;
+    background: position 60px;
+    
+}
+  .job_post1{
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 80px;
+    
+  }
+  .container1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .wrapper1,
+  .wrapper2 {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  input,
+  select,
+  textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #6c63ff;
+    box-shadow: 0 0 0 2px rgba(108, 99, 255, 0.2);
+  }
+  
+  textarea {
+    resize: none;
+    min-height: 150px;
+  }
+  
+  .salary_wrapper3 {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-top: 20px;
+  }
+  
+  .ranged_salary {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .ranged_salary input {
+    width: 50%;
+  }
+
+  .jobtypebox{
+    padding-bottom: 10px;
+  }
+  
+  /* Button Styles */
+  .createkobutton {
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    position: relative;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+  }
+  
+  .createkobutton:hover {
+    background-color: #5651d8;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .container1 {
+      padding: 1rem;
+    }
+  
+    .wrapper1,
+    .wrapper2,
+    .salary_wrapper3 {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .ranged_salary {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .ranged_salary input {
+      width: 100%;
+    }
+  }
+

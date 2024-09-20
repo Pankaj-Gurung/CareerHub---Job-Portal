@@ -1,0 +1,41 @@
+/* adminmainpage.css */
+
+.adminkomainpage {
+    display: flex;
+  }
+  
+  .sidepanelkolagi {
+    width: 200px;
+    background-color: #db8585;
+    padding-bottom: 1000px;
+  }
+  
+  .sidepanelkolagi ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidepanelkolagi li {
+    margin: 10px 0;
+  }
+  
+  .sidepanelkolagi a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sidepanelkolagi a:hover {
+    color: #007bff;
+  }
+  
+  .bothmanage{
+    position: relative;
+    top:400px;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .welcometoadmin{
+    font-size: 40px;
+    font-weight:500;
+  }

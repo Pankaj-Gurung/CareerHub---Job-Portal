@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6;
+}
+
+/* Jobs Section Styles */
+.jobs5 {
+  padding: 2rem 0;
+}
+
+.container5 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.all {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+/* Job Card Styles */
+.banner5 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.card5 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.card5:hover {
+  transform: translateY(-5px);
+}
+
+.jobtypename {
+  background-color: #6c63ff;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.4rem 0.8rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.titlename,
+.categoryname,
+.countryname {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.card5 a {
+  background-color: #6c63ff;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-top: 1rem;
+  align-self: flex-start;
+  transition: background-color 0.3s ease;
+}
+
+.titlename{
+  position: relative;
+  margin-top: 40px;
+}
+
+.card5 a:hover {
+  background-color: #5651d8;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .all {
+    font-size: 2rem;
+  }
+
+  .banner5 {
+    grid-template-columns: 1fr;
+  }
+}
